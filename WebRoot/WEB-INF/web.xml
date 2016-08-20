@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+	<resource-ref>
+		<res-ref-name>jdbc/agriproductsecp</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdministratorChk</servlet-name>
+		<servlet-class>com.ap.servlet.AdministratorChk</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdministratorAdd</servlet-name>
+		<servlet-class>com.ap.servlet.AdministratorAdd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserAdd</servlet-name>
+		<servlet-class>com.ap.servlet.UserAdd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserChk</servlet-name>
+		<servlet-class>com.ap.servlet.UserChk</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserDel</servlet-name>
+		<servlet-class>com.ap.servlet.UserDel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserUpd</servlet-name>
+		<servlet-class>com.ap.servlet.UserUpd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ProductDel</servlet-name>
+		<servlet-class>com.ap.servlet.ProductDel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ProductUpd</servlet-name>
+		<servlet-class>com.ap.servlet.ProductUpd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ProductAdd</servlet-name>
+		<servlet-class>com.ap.servlet.ProductAdd</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>WordsAdd</servlet-name>
+		<servlet-class>com.ap.servlet.WordsAdd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Cart</servlet-name>
+		<servlet-class>com.ap.servlet.Cart</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>orderServlet</servlet-name>
+		<servlet-class>com.ap.servlet.orderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdministratorDel</servlet-name>
+		<servlet-class>com.ap.servlet.AdministratorDel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>WordsDel</servlet-name>
+		<servlet-class>com.ap.servlet.WordsDel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AdministratorUpd</servlet-name>
+		<servlet-class>com.ap.servlet.AdministratorUpd</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>MatchProduct</servlet-name>
+		<servlet-class>com.ap.servlet.MatchProduct</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>WordsRet</servlet-name>
+		<servlet-class>com.ap.servlet.WordsRet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>AdministratorChk</servlet-name>
+		<url-pattern>/AdministratorChk</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdministratorAdd</servlet-name>
+		<url-pattern>/AdministratorAdd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserAdd</servlet-name>
+		<url-pattern>/UserAdd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserChk</servlet-name>
+		<url-pattern>/UserChk</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserDel</servlet-name>
+		<url-pattern>/UserDel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserUpd</servlet-name>
+		<url-pattern>/UserUpd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductDel</servlet-name>
+		<url-pattern>/ProductDel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductUpd</servlet-name>
+		<url-pattern>/ProductUpd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductAdd</servlet-name>
+		<url-pattern>/ProductAdd</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>WordsAdd</servlet-name>
+		<url-pattern>/WordsAdd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>orderServlet</servlet-name>
+		<url-pattern>/orderServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdministratorDel</servlet-name>
+		<url-pattern>/AdministratorDel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>WordsDel</servlet-name>
+		<url-pattern>/WordsDel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdministratorUpd</servlet-name>
+		<url-pattern>/AdministratorUpd</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MatchProduct</servlet-name>
+		<url-pattern>/MatchProduct</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>WordsRet</servlet-name>
+		<url-pattern>/WordsRet</url-pattern>
+	</servlet-mapping>
+
+
+   <!--中文乱码处理过滤 -->
+	<filter>
+		<filter-name>EncodingFilter</filter-name><!--过滤器名称，自己起 -->
+		<filter-class>com.ap.util.SetCharacterEncodingFilter</filter-class><!--过滤器类名称，包括包名一致、写全 -->
+		<init-param><!--初始化参数,要指定的字符集编码 -->
+			<param-name>encoding</param-name><!--参数名称 -->
+			<param-value>UTF-8</param-value><!--参数值 -->
+		</init-param>
+		<init-param><!--初始化参数,指定是否忽略大小写 -->
+			<param-name>ignore</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern> <!--“/*”表示项目下所有资源 -->
+	</filter-mapping>
+	<!--中文乱码处理过滤 -->
+	
+</web-app>

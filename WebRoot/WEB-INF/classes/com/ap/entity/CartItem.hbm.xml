@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- 映射对应的 package -->
+<hibernate-mapping package="com.ap.entity">
+
+    <!-- 实体类和数据库中的表对应（如果没有这个表则新建） -->
+    <class name="CartItem" table="cartItem">
+
+        <!-- id主键 和其他属性对应表中相应的字段（这些都是在 User.java 实体类中定义的） -->
+        <many-to-one name="p" class="Product">
+        	<column name="productId"></column>
+        </many-to-one>
+        <property name="quality" column="quality"></property>
+
+    </class>
+</hibernate-mapping>
