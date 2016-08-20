@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+            
+	<bean id="user" class="com.ap.entity.User"></bean>
+	<bean id="account" class="com.ap.entity.Account"></bean>
+	<bean id="administrator" class="com.ap.entity.Administrator"></bean>
+	<bean id="product" class="com.ap.entity.Product"></bean>
+	<bean id="words" class="com.ap.entity.Words"></bean>
+	<bean id="iorder" class="com.ap.entity.IOrder"></bean>
+	
+	<bean id="userDao" class="com.ap.dao.impl.UserDaoImpl"></bean>
+	<bean id="accountDao" class="com.ap.dao.impl.AccountDaoImpl"></bean>
+	<bean id="administratorDao" class="com.ap.dao.impl.AdministratorDaoImpl"></bean>
+	<bean id="orderDao" class="com.ap.dao.impl.OrderDaoImpl"></bean>
+	<bean id="productDao" class="com.ap.dao.impl.ProductDaoImpl"></bean>
+	<bean id="wordsDao" class="com.ap.dao.impl.WordsDaoImpl"></bean>
+</beans>
