@@ -1,0 +1,132 @@
+.indexFlash{height:512px; overflow:hidden; position:relative;}
+.indexFlash li a{display:block; width:100%; height:437px; overflow:hidden; position:absolute; z-index:1; left:100%; top:75px;}
+.indexFlash .bg{background:url(../image/indexFlashBg.png) center top no-repeat; height:25px; width:100%; position:absolute; z-index:2; left:0px; bottom:0px;}
+.indexFlash .leftBtn{display:block; background:url(../image/leftBtn2.png) left top no-repeat; width:54px; height:54px; overflow:hidden; position:absolute; z-index:20; left:0px; top:270px;}
+.indexFlash .leftBtn:hover{background:url(../image/leftBtn2Hover.png) left top no-repeat;}
+.indexFlash .rightBtn{display:block; background:url(../image/rightBtn2.png) left top no-repeat; width:54px; height:54px; overflow:hidden; position:absolute; z-index:10; right:0px; top:270px;}
+.indexFlash .rightBtn:hover{background:url(../image/rightBtn2Hover.png) left top no-repeat;}
+
+.indexPart .wal{height:182px; width:970px; overflow:hidden; position:relative;}
+.indexTitle{position:relative; height:23px; padding:13px 0 0 24px; overflow:hidden; border-bottom:#d60601 solid 1px; background:url(../image/indexTitle.gif) left 16px no-repeat; color:#000;}
+.indexTitle b{font-size:15px;}
+.indexTitle span{font-family:Arial; color:#666; padding-left:5px;}
+.indexTitle .more{position:absolute; z-index:10; top:17px; right:0px; font-family:Arial;}
+/**/
+.indexPart_01{width:310px; overflow:hidden; padding-right:45px;}
+.indexPart_01 .list{padding-top:22px;}
+.indexPart_01 li{float:left; width:310px; height:29px; line-height:29px; overflow:hidden; border-bottom:#cddad4 solid 1px; position:relative;}
+.indexPart_01 li a{background:url(../../image/ico1.gif) 4px center no-repeat; padding-left:22px;}
+.indexPart_01 li .time{position:absolute; z-index:10; top:0px; right:6px; color:#999;}
+/**/
+.indexPart_02{width:290px; overflow:hidden;}
+.indexPart_02 .indexTitle{border-bottom:#347f6b solid 1px;}
+.indexPart_02 .contentDiv{padding-top:35px;}
+.indexPart_02 .imgDiv{float:left;}
+.indexPart_02 .content{float:right; width:180px; overflow:hidden; line-height:1.8em; font-family:"宋体"; position:relative; top:-2px;}
+/**/
+.indexPart_03{width:285px; height:182px; position:relative; overflow:hidden;}
+.indexPart_03 .list{width:250px; height:182px; position:relative; margin:0 auto; overflow:hidden;}
+.indexPart_03 li{position:absolute; z-index:10; left:250px; top:0px;}
+.indexPart_03 .leftBtn{display:block; background:url(../image/leftBtn.gif) left top no-repeat; width:9px; height:15px; overflow:hidden; position:absolute; z-index:10; left:0px; top:88px;}
+.indexPart_03 .leftBtn:hover{background:url(../image/leftBtnHover.gif) left top no-repeat;}
+.indexPart_03 .rightBtn{display:block; background:url(../image/rightBtn.gif) left top no-repeat; width:9px; height:15px; overflow:hidden; position:absolute; z-index:10; right:0px; top:88px;}
+.indexPart_03 .rightBtn:hover{background:url(../image/rightBtnHover.gif) left top no-repeat;}
+
+.sideTitle{font-weight:100; color:#FFF; background:url(../../image/sideTitle.gif) left top no-repeat; height:40px; line-height:38px; overflow:hidden; padding-left:54px;}
+.sideNav{min-height:100px; _height:100px; background:#f3f3f1; padding:0 0 20px 0;}
+.sideNav li{float:left; width:245px; overflow:hidden; background:url(../image/sideNavBg.gif) left bottom no-repeat;}
+.sideNav a{display:block; height:40px; line-height:38px; overflow:hidden; font-size:14px; padding-left:40px; background:url(../image/sideNavIco1.gif) 28px center no-repeat;}
+.sideNav a:hover, .sideNav .aNow{background:#ccc url(../image/sideNavIco2.gif) 28px center no-repeat; color:#D2151A;}
+.sideNav .list{background:url(../image/sideNavBg.gif) left top no-repeat;}
+.sideNav .list li{background:url(../image/sideNavBg.gif) 13px bottom no-repeat; padding-left:28px; width:217px;}
+.sideNav .list a{padding-left:31px; background:url(../image/sideNavIco3.gif) 13px center no-repeat;}
+.sideNav .list a:hover, .sideNav .list .aNow{background:#9a9898 url(../image/sideNavIco4.gif) 13px center no-repeat; color:#FFF;}
+
+.pageTitle{height:55px; overflow:hidden; background:url(../image/pageTitle.gif) left bottom repeat-x;}
+.pageTitle h1{font-weight:100; height:34px; overflow:hidden; float:left; border-bottom:#d2151a solid 2px; border-right:#FFF solid 1px; color:#666; font-size:20px; padding:19px 6px 0 6px;}
+
+.pageContent{line-height:1.8em; padding:30px 6px 60px 6px;}
+
+.Honor{width:700px; overflow:hidden; position:relative; padding-top:40px;}
+.Honor ul{width:110%;}
+.Honor li{float:left; text-align:center; width:233px; padding-left:5px; height:208px; overflow:hidden;}
+.Honor .bg{width:213px; overflow:hidden;}
+.Honor .imgDiv{border:#d8d8d8 solid 2px; padding:2px;}
+.Honor .name{height:34px; line-height:34px; overflow:hidden;}
+.Honor .liNow .bg{width:209px; border:#0c8264 solid 2px; border-bottom:0px; background:#0d8265;}
+.Honor .liNow .imgDiv{border:#FFF solid 2px; padding:0px;}
+.Honor .liNow a{color:#FFF;}
+
+.HonorShow .bigImg{text-align:center; padding:35px 0;}
+.HonorShow .listDiv{height:160px; overflow:hidden; position:relative;}
+.HonorShow .leftBtn{display:block; background:url(../image/leftBtn1.gif) left top no-repeat; width:12px; height:23px; overflow:hidden; position:absolute; z-index:10; left:47px; top:32px;}
+.HonorShow .leftBtn:hover{background:url(../image/leftBtn1Hover.gif) left top no-repeat;}
+.HonorShow .rightBtn{display:block; background:url(../image/rightBtn1.gif) left top no-repeat; width:12px; height:23px; overflow:hidden; position:absolute; z-index:10; right:47px; top:32px;}
+.HonorShow .rightBtn:hover{background:url(../image/rightBtn1Hover.gif) left top no-repeat;}
+.HonorShow .list{width:580px; overflow:hidden; margin:0 auto; position:relative;}
+.HonorShow ul{width:2000%;}
+.HonorShow li{float:left; width:145px; overflow:hidden; text-align:center; cursor:pointer;}
+.HonorShow .imgDiv{width:123px; overflow:hidden; margin:0 auto; border:#dcdcdc solid 1px; padding:1px;}
+.HonorShow .name{padding-top:10px;}
+
+.caseList{padding-top:35px; height:120px; overflow:hidden; position:relative;}
+.caseList .leftBtn{display:block; background:url(../image/leftBtn1.gif) left top no-repeat; width:12px; height:23px; overflow:hidden; position:absolute; z-index:10; left:0px; top:72px;}
+.caseList .leftBtn:hover{background:url(../image/leftBtn1Hover.gif) left top no-repeat;}
+.caseList .rightBtn{display:block; background:url(../image/rightBtn1.gif) left top no-repeat; width:12px; height:23px; overflow:hidden; position:absolute; z-index:10; right:0px; top:72px;}
+.caseList .rightBtn:hover{background:url(../image/rightBtn1Hover.gif) left top no-repeat;}
+.caseList .list{width:668px; overflow:hidden; margin:0 auto; position:relative;}
+.caseList ul{width:2000%;}
+.caseList li{float:left; width:170px; height:94px; position:relative; overflow:hidden; cursor:pointer;}
+.caseList .grayImg{position:absolute; z-index:1; left:0px; top:0px;}
+.caseShow .title{position:relative; left:6px; top:10px;}
+
+.news .list1{padding-top:20px;}
+.news .list1 li{float:left; width:502px; padding:0 0 0 198px; height:160px; overflow:hidden; position:relative; border-bottom:#c4c4c4 dotted 1px;}
+.news .list1 .imgDiv{position:absolute; z-index:10; left:10px; top:23px;}
+.news .list1 h2{padding:25px 0 9px 0;}
+.news .list1 .content{line-height:1.8em; color:#666;}
+.news .list li{height:41px; line-height:41px; overflow:hidden; border-bottom:#c4c4c4 dotted 1px; position:relative;}
+.news .list .time{position:absolute; z-index:10; top:0px; right:10px; color:#999;}
+.news .list a{font-size:14px; background:url(../image/ico4.gif) 12px center no-repeat; padding-left:30px;}
+
+.newShow .title{text-align:center; padding:38px 0 12px 0; font-size:18px; color:#666; font-weight:100;}
+.newShow .time{text-align:center; padding-bottom:22px; color:#999; font-family:"宋体";}
+.newShow .imgDiv{text-align:center;}
+
+.job{padding:30px 0 50px 0;}
+.job li{padding-bottom:7px; min-height:35px; _height:35px; position:relative;}
+.job .name{height:35px; line-height:32px; overflow:hidden; padding-left:19px; background:#e9eaea url(../image/jobIco1.gif) left center no-repeat; font-size:14px; cursor:pointer;}
+.job .btn{position:absolute; z-index:10; top:0px; right:22px; line-height:35px; color:#0C8264; font-size:13px; white-space:nowrap;}
+.job .content{line-height:1.8em; padding:20px 0; display:none;}
+.job .liNow .name{background:#e9eaea url(../image/jobIco2.gif) left center no-repeat;}
+.job .liNow .content{display:block;}
+
+.contactList{padding-top:50px;}
+.contactList ul{width:110%;}
+.contactList li{float:left; width:304px; padding-left:20px; height:290px; overflow:hidden;}
+.contactList h1{padding:20px 0 10px 0;}
+.contactList .content{line-height:2.2em;}
+.contactList .content span{font-size:14px;}
+
+.contactShow{width:884px; overflow:hidden; margin:0 auto; padding:50px 0;}
+.contactShow .title{font-size:18px; font-weight:100; padding:22px 0px;}
+.contactShow .title span{font-size:14px; padding-left:12px;}
+.contactShow .content{color:#666; font-size:14px; line-height:1.8em;}
+
+.History{position:relative; top:15px; height:692px; overflow:hidden; margin-bottom:40px; background:url(../image/History.gif) 259px 5px no-repeat;}
+.History .imgDiv{position:absolute; z-index:10; left:8px; top:52px;}
+.History .leftBtn{display:block; background:url(../image/leftBtn1.png) left top no-repeat; width:43px; height:22px; overflow:hidden; position:absolute; z-index:10; left:239px; top:0px;}
+.History .rightBtn{display:block; background:url(../image/rightBtn1.png) left top no-repeat; width:43px; height:22px; overflow:hidden; position:absolute; z-index:10; left:239px; bottom:0px;}
+.History .list{height:640px; overflow:hidden; position:relative; left:200px; top:25px;}
+.History li{float:left; width:500px; overflow:hidden;}
+.History .num{float:left; width:71px; position:relative; top:12px;}
+.History .num a{font-size:18px; color:#BDBDBD; font-family:Arial; display:block; height:22px; line-height:22px; background:url(../image/timeIco.png) right center no-repeat;}
+.History .content1{float:right; width:400px; overflow:hidden; margin-right:12px; line-height:22px; color:#939393; border-bottom:#dfdfdf dashed 1px; padding:12px 0 6px 0;}
+.History .liNow .content1{color:#0C8164;}
+.History .liNow .num a{background:url(../image/timeIco1.png) right center no-repeat; color:#0C8164;}
+
+
+
+
+
+
